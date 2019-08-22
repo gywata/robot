@@ -1,4 +1,4 @@
-package com.challenge.evoluum.robot;
+package com.challenge.evoluum.robot.app.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

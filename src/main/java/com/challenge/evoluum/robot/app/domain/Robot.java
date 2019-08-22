@@ -1,5 +1,8 @@
-package com.challenge.evoluum.robot.domain;
+package com.challenge.evoluum.robot.app;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Robot {
 
     private static String ERROR = "400 Bad Request";
