@@ -1,4 +1,4 @@
-package com.challenge.evoluum.robot.app;
+package com.challenge.evoluum.robot.app.domain;
 
 import org.springframework.stereotype.Component;
 
@@ -64,11 +64,6 @@ public class Robot {
             }
         }
 
-        return "(" + axisX + ", " + axisY + ", " + direction + ")";
-    }
-
-    @Override
-    public String toString() {
         return "(" + axisX + ", " + axisY + ", " + direction + ")";
     }
 }
